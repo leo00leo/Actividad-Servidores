@@ -4,15 +4,18 @@
   <meta charset='utf-8'>
   <title>Servidor Web ESP32</title>
   <style>
-    body { background-color: black; text-align: center; }
+    body { background-image: url(__FONFO.jpg); text-align: center; }
     .titulo { font-family: 'Courier', monospace; font-weight: bold; font-style: italic; font-size: 32px; color: white; }
     .boton { width: 80px; height: 45px; background-color: yellow; color: black; border: 2px solid black; border-radius: 80px; font-size: 14px; font-weight: bold; cursor: pointer; }
   </style>
 </head>
 <body>
-  <h1 class='titulo'>ANIMACIONES</h1>
-  <p><a href='/toggle'><button class='boton'>ANIMACION1</button></a></p>
-  <p><a href='/toggle'><button class='boton'>ANIMACION2</button></a></p>
-  <p><a href='/toggle'><button class='boton'>APAGADO</button></a></p>
+  <h1 class='titulo'>MANEJO DE 2 DISPLAY 7 SEGMENTOS</h1>
+  <p><a href='/cambio_display'><button class='boton'>__CAMBIAR_DISPLAY__</button></a></p>
+  <p><a href='/1'><button class='boton'>1</button></a><a href='/toggle'><button class='boton'>2</button></a><a href='/3'><button class='boton'>3</button></a></p>
+  <p><a href='/4'><button class='boton'>4</button></a><a href='/toggle'><button class='boton'>5</button></a><a href='/6'><button class='boton'>6</button></a></p>
+  <p><a href='/7'><button class='boton'>7</button></a><a href='/toggle'><button class='boton'>8</button></a><a href='/9'><button class='boton'>9</button></a></p>
+  <p><a href='/0'><button class='boton'>0</button></a></p>
+  <span>Display __NUMERO_DISPLAY_ACTUAL__</span>
 </body>
 </html>

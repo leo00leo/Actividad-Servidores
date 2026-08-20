@@ -11,7 +11,7 @@ const int ledPin[5]={2,32,33,25,26
 int animacion=0;
 WebServer server(80);
 
-bool ledANIMACION1 = true;
+
 bool ledANIMACION2 = true;
 bool ledAPAGADO = true;
 
@@ -136,3 +136,4 @@ void loop() {
   if(animacion==1) an1();
   else if(animacion==2) an2;
 }
+
