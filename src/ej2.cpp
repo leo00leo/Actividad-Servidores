@@ -158,8 +158,8 @@ void setup() {
 void loop() {
   server.handleClient();
     for(int i=0;i<7;i++) {
-       // if(display_act==1) digitalWrite(pind7s1[i],d7s[num][i]);
-       // else digitalWrite(pind7s2[i],d7s[num][i]);
+        if(display_act==1) digitalWrite(pind7s1[i],d7s[num][i]);
+        else digitalWrite(pind7s2[i],d7s[num][i]);
     }
   
 }
