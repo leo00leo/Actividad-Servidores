@@ -85,12 +85,13 @@ void setup() {
 
   // Iniciar servidor
   server.begin();
+  
 }
 
 void loop() {
-  // Ya no necesitamos server.handleClient(). El servidor asíncrono
-  // maneja las peticiones en segundo plano por su cuenta.
-  // El loop ahora se dedica 100% a las tareas de hardware.
+// Ya no necesitamos server.handleClient(). El servidor asíncrono
+// maneja las peticiones en segundo plano por su cuenta.
+// El loop ahora se dedica 100% a las tareas de hardware.
 
 
 }
